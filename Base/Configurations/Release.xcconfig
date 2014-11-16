@@ -31,3 +31,9 @@ SWIFT_OPTIMIZATION_LEVEL = -O
 
 // Whether to perform App Store validation checks
 VALIDATE_PRODUCT = YES
+
+// Disable assertions in release builds
+ENABLE_NS_ASSERTIONS = NO
+
+// Disable C assertions in release builds
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) NDEBUG
