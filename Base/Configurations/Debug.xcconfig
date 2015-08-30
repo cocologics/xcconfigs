@@ -41,3 +41,6 @@ SWIFT_OPTIMIZATION_LEVEL = -Onone
 
 // Disable Developer ID timestamping
 OTHER_CODE_SIGN_FLAGS = --timestamp=none
+
+// Whether to enable the iOS 9 testability feature
+ENABLE_TESTABILITY = YES
