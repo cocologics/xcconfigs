@@ -41,3 +41,6 @@ SWIFT_OPTIMIZATION_LEVEL = -Onone
 
 // Disable Developer ID timestamping
 OTHER_CODE_SIGN_FLAGS = --timestamp=none
+
+// Disable deprecation warnings (as errors) while migrating from static libraries to frameworks
+WARNING_CFLAGS = -Wno-error=unknown-warning-option -Wno-gcc-compat -Wno-unused-const-variable -Wno-nullability-completeness -Wno-error=deprecated-implementations -Wno-error=deprecated-declarations
