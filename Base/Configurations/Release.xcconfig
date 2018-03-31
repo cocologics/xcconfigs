@@ -29,10 +29,11 @@ ONLY_ACTIVE_ARCH = NO
 // final installation location
 STRIP_INSTALLED_PRODUCT = YES
 
-// The optimization level (-Onone, -O, -Owholemodule) for the produced Swift binary
-SWIFT_OPTIMIZATION_LEVEL = -Owholemodule
+// The optimization level (-Onone, -O, -Osize) for the produced Swift binary
+SWIFT_OPTIMIZATION_LEVEL = -O
 
 // Introduced in Xcode 9.3 - No documentation yet
+// singlefile or wholemodule
 SWIFT_COMPILATION_MODE = wholemodule
 
 // Whether to perform App Store validation checks
