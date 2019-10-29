@@ -39,3 +39,4 @@ SWIFT_COMPILATION_MODE = wholemodule
 
 // Whether to perform App Store validation checks
 VALIDATE_PRODUCT = YES
+

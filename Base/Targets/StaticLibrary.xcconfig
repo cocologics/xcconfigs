@@ -28,7 +28,5 @@ SKIP_INSTALL = YES
 // Disallows use of APIs that are not available
 // to app extensions and linking to frameworks
 // that have not been built with this setting enabled.
-
-// Disable extesion api only while migrating from static libraries to frameworks
-//APPLICATION_EXTENSION_API_ONLY = YES
+APPLICATION_EXTENSION_API_ONLY = YES
 
